@@ -21,6 +21,12 @@
 
 A lot of food is wasted on a daily basis at weddings, parties, restaurants, and hotels in India. India, being a poverty affected country, deals with tough situations to meet everyone's basic demands. India currently ranks 105 out of 117 countries, below all South-East Asian countries on global hunger and poverty index. To deal with the issue of food wastage and poverty, we aim to have these two issues juxtapose each other to become a solution.  NGOs that work in the field of feeding the needy ones. Khaan-दान-Bot is an add-on Telegram bot that assists our website. Telegram provides a large number of users to be connected, hence at pandemic times like Corona Virus, it serves as a good platform to help amidst lockdown. 
 
+---
+### Project Flow:
+<div align="center">
+<img src="./Snapshots/flow.png" width=900px/>
+<br>
+</div>
 
 ### Goals of this chatbot:
 
@@ -41,8 +47,11 @@ A lot of food is wasted on a daily basis at weddings, parties, restaurants, and 
 <h4 align="center">Adding Details for Excess Food</h4>
 <img src="./Snapshots/ss2.png" width=900px/>
 <br>
-<h4 align="center">Food Details Posted on Public Channel</h4>
+<h4 align="center">Food Details (with pic) Posted on Public Channel</h4>
 <img src="./Snapshots/ss3.png" width=900px/>
+<br>
+<h4 align="center">Food Details (without pic) Posted on Public Channel</h4>
+<img src="./Snapshots/ss4.png" width=900px/>
 <br>
 </div>
 
@@ -58,7 +67,7 @@ A lot of food is wasted on a daily basis at weddings, parties, restaurants, and 
 
 * Chat Platform: Telegram
 * Backend: Python3
-* Dependencies: GMaps API (specifically, Geocoding API)
+* Dependencies: GMaps API (specifically, Geocoding API), [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
 * Libraries: Available in [requirements.txt](https://github.com/arghyadeep99/KhaanDaanBot/blob/master/requirements.txt).
 
 ### Chat with our chatbot at:
