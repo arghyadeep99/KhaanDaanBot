@@ -19,12 +19,12 @@ LOCATION, PHOTO, DIET, SERVINGS, TIME, CONFIRMATION = range(6)
 reply_keyboard = [['Confirm', 'Restart']]
 markup = ReplyKeyboardMarkup(reply_keyboard, resize_keyboard=True, one_time_keyboard=True)
 
-TOKEN = '1257208537:AAHnmxLuziNLVUmsnO_Q6jQ1bJB2qHp5zvA'
+TOKEN = 'Your_Bot_Token_Goes_Here'
 bot = telegram.Bot(token=TOKEN)
 
-chat_id = "@khaan_daan"
+chat_id = "@YOURCHANNELNAME"
 
-GMAPS_TOKEN = 'AIzaSyC2LiKg0HU1IxAhC7IYczuGF82wg9q7Axs '
+GMAPS_TOKEN = 'Your Geocoding API goes here '
 gmaps = GoogleMaps(GMAPS_TOKEN)
 
 
@@ -189,7 +189,7 @@ def main():
 
 	#updater.start_polling()
 	updater.start_webhook(listen="0.0.0.0", port=int(PORT), url_path=TOKEN)
-	updater.bot.setWebhook('https://khaandaan-bot.herokuapp.com/' + TOKEN)
+	updater.bot.setWebhook('https://YOUR-APP-NAME.herokuapp.com/' + TOKEN)
 
 	updater.idle()
 
